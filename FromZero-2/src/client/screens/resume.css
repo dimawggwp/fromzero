@@ -1,0 +1,27 @@
+/* FromZero · лист резюме. Бумага той же «кости», что и досье на лендинге; печатается без фона сайта. */
+.rp { position: relative; background: #fffdf8; color: #1b1714; border-radius: 3px; box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 0, 0, 0.05); font: 400 13px/1.5 var(--body); overflow: hidden; text-align: left; }
+.rp-in { padding: 30px 32px 34px; }
+.rp-band { height: 10px; background: var(--fire); }
+.rp-name { font: 900 34px/0.92 var(--display); text-transform: uppercase; letter-spacing: 0.005em; }
+.rp-title { margin-top: 6px; font: 700 15px/1.2 var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: #5a514a; }
+.rp-accent .rp-title { color: #b8241b; }
+.rp-meta { margin-top: 8px; color: #6b625a; font-size: 12px; }
+.rp-h { margin: 18px 0 6px; padding-bottom: 4px; border-bottom: 1.5px solid #1b1714; font: 800 13px/1 var(--display); letter-spacing: 0.16em; text-transform: uppercase; }
+.rp-accent .rp-h { color: #b8241b; border-color: #e8392f; }
+.rp p { margin: 0; }
+.rp ul { margin: 4px 0 0; padding-left: 18px; }
+.rp li { margin: 2px 0; }
+.rp-item { margin-top: 8px; }
+.rp-row { display: flex; justify-content: space-between; gap: 12px; }
+.rp-dim { color: #6b625a; white-space: nowrap; }
+.rp-skills { display: flex; flex-wrap: wrap; gap: 4px; }
+.rp-skills span { padding: 2px 9px; border-radius: 99px; font-size: 12px; background: #efe8dc; }
+.rp-accent .rp-skills span { background: #fbe0dc; color: #8f1a12; }
+.rp-classic { font-family: Georgia, "Times New Roman", serif; }
+.rp-classic .rp-name { font-family: Georgia, serif; font-weight: 700; text-transform: none; font-size: 30px; }
+.rp-classic .rp-h { font-family: Georgia, serif; letter-spacing: 0.12em; }
+.rp-mono, .rp-mono .rp-name, .rp-mono .rp-h, .rp-mono .rp-title { font-family: var(--mono); }
+.rp-mono .rp-name { font-size: 22px; text-transform: none; font-weight: 700; }
+.rp-mono .rp-h { border-bottom-style: dashed; font-weight: 700; }
+.rp-empty { margin: 60px 0 30px; text-align: center; color: #b4aaa0; font: 900 26px/1 var(--display); text-transform: uppercase; }
+.rp-stamp { position: absolute; top: 20px; right: 20px; transform: rotate(8deg); border: 2px solid #b8241b; color: #b8241b; font: 700 12px/1 var(--mono); text-transform: uppercase; padding: 4px 8px; border-radius: 3px; }
